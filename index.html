@@ -1043,12 +1043,12 @@
 
         });
         function showdata(data) {
-            console.log(data);
+         //   console.log(data);
 
             $("#s09-city").empty();
             $("#s09-city").append(`<option value="" disabled selected>---所在地區---</option>`);
             data.forEach(function (item) {
-                console.log(item.CityName);
+       //         console.log(item.CityName);
 
                 let strHTML = `<option value="">${item.CityName}</option>`;
                 $("#s09-city").append(strHTML);
